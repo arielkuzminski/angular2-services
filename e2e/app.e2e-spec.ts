@@ -1,10 +1,10 @@
-import { ServicesPage } from './app.po';
+import { CompleteGuidePage } from './app.po';
 
-describe('services App', () => {
-  let page: ServicesPage;
+describe('complete-guide App', function() {
+  let page: CompleteGuidePage;
 
   beforeEach(() => {
-    page = new ServicesPage();
+    page = new CompleteGuidePage();
   });
 
   it('should display message saying app works', () => {
